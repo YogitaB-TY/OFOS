@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test_Scripts.RemoveOrdersTest">
+        <methods>
+          <include name="setup"/>
+          <include name="beforeSuit"/>
+          <include name="CloseApp"/>
+          <include name="afterSuite"/>
+          <include name="browserSetup"/>
+          <include name="deleteOrders_TestCase"/>
+        </methods>
+      </class> <!-- test_Scripts.RemoveOrdersTest -->
+      <class name="test_Scripts.LoginTest">
+        <methods>
+          <include name="login_TestCase"/>
+          <include name="setup"/>
+          <include name="beforeSuit"/>
+          <include name="CloseApp"/>
+          <include name="afterSuite"/>
+          <include name="browserSetup"/>
+        </methods>
+      </class> <!-- test_Scripts.LoginTest -->
+      <class name="test_Scripts.CheckOutTest">
+        <methods>
+          <include name="setup"/>
+          <include name="checkOutPage_TestCase"/>
+          <include name="beforeSuit"/>
+          <include name="CloseApp"/>
+          <include name="afterSuite"/>
+          <include name="browserSetup"/>
+        </methods>
+      </class> <!-- test_Scripts.CheckOutTest -->
+      <class name="test_Scripts.Dishes01Test">
+        <methods>
+          <include name="setup"/>
+          <include name="beforeSuit"/>
+          <include name="CloseApp"/>
+          <include name="afterSuite"/>
+          <include name="browserSetup"/>
+          <include name="dishesPage_TestCase01"/>
+        </methods>
+      </class> <!-- test_Scripts.Dishes01Test -->
+      <class name="test_Scripts.ViewMenuTest">
+        <methods>
+          <include name="setup"/>
+          <include name="viewMenu_TestCase"/>
+          <include name="beforeSuit"/>
+          <include name="CloseApp"/>
+          <include name="afterSuite"/>
+          <include name="browserSetup"/>
+        </methods>
+      </class> <!-- test_Scripts.ViewMenuTest -->
+      <class name="test_Scripts.RegisterTest">
+        <methods>
+          <include name="setup"/>
+          <include name="beforeSuit"/>
+          <include name="CloseApp"/>
+          <include name="afterSuite"/>
+          <include name="browserSetup"/>
+          <include name="register_TestCase"/>
+        </methods>
+      </class> <!-- test_Scripts.RegisterTest -->
+      <class name="test_Scripts.PlaceOrderTest">
+        <methods>
+          <include name="setup"/>
+          <include name="beforeSuit"/>
+          <include name="CloseApp"/>
+          <include name="afterSuite"/>
+          <include name="browserSetup"/>
+          <include name="placeOrder_TestCase"/>
+        </methods>
+      </class> <!-- test_Scripts.PlaceOrderTest -->
+      <class name="test_Scripts.Dishes02Test">
+        <methods>
+          <include name="setup"/>
+          <include name="beforeSuit"/>
+          <include name="CloseApp"/>
+          <include name="afterSuite"/>
+          <include name="browserSetup"/>
+          <include name="dishesPage_TestCase02"/>
+        </methods>
+      </class> <!-- test_Scripts.Dishes02Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
